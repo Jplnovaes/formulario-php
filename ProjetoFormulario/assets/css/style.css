@@ -1,0 +1,70 @@
+.section { display: none; }
+.section.active { display: block; }
+button { margin-top: 10px; }
+body{background-color: #367c96;
+    color: white;
+
+}
+.formulario{
+    width: 40%;
+    margin: auto;
+    margin-top: 80px;
+    background-color: #dbf3fa;
+    align-items: center;
+    justify-content: center;
+    color: #005875;
+    padding: 50px;
+}
+
+.pergunta{
+    font-size: 17px;
+    cursor:default;
+    background-color: transparent;
+}
+
+label{
+    cursor: pointer;
+}
+input[type="text"]{
+    margin-bottom: 10px;
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.303) ;
+}
+input[type="radio"]{
+    margin-bottom: 15px;
+    width: 5%;
+    height: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.303) ;
+}
+input[type="text"]{
+    margin-bottom: 10px;
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.303) ;
+}
+
+input[type="text"]:focus{
+    box-shadow: 1px 1px 1px 1px rgb(27, 126, 255);
+}
+label:hover{
+    background-color: #96c3d3;
+    padding: 3px;
+    border-radius: 10px;
+}
+button{
+    cursor: pointer;
+    background-color: #005875;
+    color: aliceblue;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #18aade;
+}
+.next{
+    float: right;
+}
