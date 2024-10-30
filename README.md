@@ -8,7 +8,7 @@ Coleta de dados do usuário através de um formulário intuitivo.
 Geração de feedback personalizado com base nas respostas.
 Exibição dos resultados em um gráfico radar para melhor visualização e análise.
 
-# Tecnologias Utilizadas:
+# Tecnologias Utilizadas: <br>
 PHP
 HTML/CSS
 JavaScript
